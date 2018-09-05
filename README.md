@@ -23,3 +23,11 @@ Install dependencies and build project
 Run project
 
     stack exec hasketodo
+
+Open webbrowser and navigate to the app
+
+    localhost:3000
+
+Add a task
+
+    localhost:3000/create/Learn Haskell
