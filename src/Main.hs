@@ -50,7 +50,7 @@ routes = do
     blaze $ do
       H.html $ do
         H.body $ do
-          H.h1 "My Todo List App in Haskell"
+          H.h1 "My Todo App in Haskell"
           H.ul $ do
             forM_ posts $ \post -> H.li (H.toHtml post)
   S.get "/create/:title" $ do
